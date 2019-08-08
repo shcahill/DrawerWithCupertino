@@ -2,7 +2,7 @@
 
 Drawer bug when using CupertinoPageTransitionsBuilder.
 
-[demo](https://raw.github.com/wiki/shcahill/DrawerWithCupertino/sample.gif)
+![demo](https://raw.github.com/wiki/shcahill/DrawerWithCupertino/sample.gif)
 
 1. tap FAB and app will transition to NextPage.
 2. open drawer gesture
