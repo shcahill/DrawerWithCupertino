@@ -1,16 +1,13 @@
 # drawer_with_cupertino
 
-A new Flutter application.
+Drawer bug when using CupertinoPageTransitionsBuilder.
 
-## Getting Started
+[demo](https://raw.github.com/wiki/shcahill/DrawerWithCupertino/sample.gif)
 
-This project is a starting point for a Flutter application.
+1. tap FAB and app will transition to NextPage.
+2. open drawer gesture
+3. drawer will not open and TopPage is appear
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* This issue occure only first time to open drawer
+* If remove `CupertinoPageTransitionsBuilder`, it works
+* iPhone is works
