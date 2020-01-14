@@ -11,3 +11,8 @@ Drawer bug when using CupertinoPageTransitionsBuilder.
 * This issue occure only first time to open drawer
 * If remove `CupertinoPageTransitionsBuilder`, it works
 * iPhone is works
+
+
+## Issue
+
+https://github.com/flutter/flutter/issues/37842#issuecomment-572548427
